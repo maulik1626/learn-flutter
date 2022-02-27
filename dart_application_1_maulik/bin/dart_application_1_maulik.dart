@@ -147,4 +147,5 @@ void main(List<String> arguments) {
   
   String? name1 = stdin.readLineSync();
   print("Hello, $name1");
+  print("is this you $name?");
 }
