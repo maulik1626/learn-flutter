@@ -142,8 +142,8 @@ void main(List<String> arguments) {
   print("Hello, $name");
   print("Hello, ${name + ' ' + age}");
 
-  print("${name.toUpperCase()}");
-  print("${name.toLowerCase()}");
+  print(name.toUpperCase());
+  print(name.toLowerCase());
   
   String? name1 = stdin.readLineSync();
   print("Hello, $name1");
