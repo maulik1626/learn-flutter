@@ -185,13 +185,13 @@ void main(List<String> arguments) {
   //// List
   // It is a ordered group of elements
   //// Fixed Length List
-  List names = [
-    "Maulik",
-    "Raja",
-    26,
-    6.2,
-    true,
-  ];
+  // List names = [
+  //   "Maulik",
+  //   "Raja",
+  //   26,
+  //   6.2,
+  //   true,
+  // ];
   // print(names);
   // names.add("Maulik");
   // print(names);
@@ -253,10 +253,11 @@ void main(List<String> arguments) {
     print("\n");
   }
 
+  // Pyramid starts
   for(var i = 1; i <= 5; i++){
 
     for(var x = 4; x >= i; x--){
-      stdout.write("");
+      stdout.write(" ");
     }
 
 
@@ -266,7 +267,22 @@ void main(List<String> arguments) {
 
     print("\n");
   }
+  // Pyramid ends
 
+  // Right-side Pyramid starts
+  for (var i = 1; i <= 5; i++){
+    for (var j = 4; j >=i; j--){
+      stdout.write(" ");
+    }
+    for (var j = 1; j <= i; j++){
+      stdout.write("@");
+    }
+    print("\n");
+  }
+  // Right-side Pyramid ends
+
+
+  // Kaju Katri Starts
   for(var i = 1; i <= 5; i++){
     for(var j = 4; j >= i; j--){
       stdout.write(" ");
@@ -276,7 +292,7 @@ void main(List<String> arguments) {
     }
     print("\n");
   }
-  for(var i = 1; i <= 5; i++){
+  for(var i = 1; i <= 4; i++){
     for(var j = 1; j <= i; j++){
       stdout.write(" ");
     }
@@ -285,5 +301,54 @@ void main(List<String> arguments) {
     }
     print("\n");
   }
+  // Kaju Katri Ends
+
+  print("\n");
+  print("\n");
+  print("\n");
+
+  // Pyramid Actual starts
+  for(var i = 1; i <=5; i++){
+    for(var j = 4; j >= i; j--){
+      stdout.write("  ");
+    }
+    for(var j = 1; j <= (2*i)-1; j++){
+      stdout.write(" @");
+    }
+
+    print("\n");
+  }
+  // Pyramid Actual ends
+
+  // Actual Kajukatri starts
+  
+  int size = int.parse(stdin.readLineSync() ?? "0");
+
+
+  for (var i = 1; i <= size; i++){
+
+    for (var j = size-1; j >=i; j--){
+      stdout.write("  ");
+    }
+    for (var j = 1; j <= (2*i)-1; j++){
+      stdout.write(" @");
+    }
+    print("\n");
+
+  }
+
+  for (var i = 1; i <= size; i++){
+    for (var j = 1; j <= i; j++){
+      stdout.write("  ");
+    }
+    for (var j = 1; j <= ((size*2)-1) - (2*i); j++){
+
+      stdout.write(" @");
+    }
+    print("\n");
+  }
+
+  // Actual Kajukatri ends
+
 
 }
