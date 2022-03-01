@@ -171,7 +171,53 @@ void main(List<String> arguments) {
   // print(name.padRight(20));
   // print(name.padLeft(20));
 
-  var str1 = "    Hello     ";
-  print(str1);
-  print(str1.trim());
+  // var str1 = "    Hello     ";
+  // print(str1);
+  // print(str1.trim());
+  // print(str1.trimLeft());
+  // print(str1.trimRight());
+
+  // var str2 = "Hello, my name is Maulik Raja";
+  // print(str2);
+  // print(str2.split(" "));
+  // print(str2.split("a"));
+
+  //// List
+  // It is a ordered group of elements
+  //// Fixed Length List
+  List names = [
+    "Maulik",
+    "Raja",
+    26,
+    6.2,
+    true,
+  ];
+  // print(names);
+  // names.add("Maulik");
+  // print(names);
+  // names.remove("Maulik");
+  // print(names);
+  // names.removeAt(1);
+  // print(names);
+  // names.removeLast();
+  // print(names);
+  // print(names);
+
+  // names[2] = "Jitubhai";
+  // print(names);
+  
+  // names.insert(3, 26);
+  // print(names);
+  
+  // print(names.single);
+
+
+
+
+
+  List<dynamic> lst = List.filled(5, 0);
+
+  lst.add("Maulik");
+  print(lst);
+
 }
