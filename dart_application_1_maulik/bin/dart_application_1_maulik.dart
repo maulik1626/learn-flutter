@@ -1,4 +1,4 @@
-// import 'dart:io';
+import 'dart:io';
 
 void main(List<String> arguments) {
   //   var a = 123;
@@ -212,12 +212,61 @@ void main(List<String> arguments) {
   // print(names.single);
 
 
+  // List<dynamic> lst = List.filled(5, 0);
+
+  // lst.add("Maulik");
+  // print(lst);
+
+  // var car = ["Swift", "Verna", "Gloster", "3 series", "Fortuner"];
+  // var bike = ["Pulser", "Aparche", "CBR"];
+
+  // var vehicle = ["Maruti", ...bike, ...car];
+
+  // print(vehicle);
+
+  // for(var i in vehicle){
+  //   print(i);
+  // }
+
+  for(var i = 0; i < 5; i++){
+    for(var j = 0; j < i; j++){
+      if (i%2==0){
+        stdout.write("1 ");
+      }
+      else{
+        stdout.write("0 ");
+      }
+    }
+    print("\n");
+  }
+
+  for(var i = 0; i < 5; i++){
+
+    for(var j = 0; j < i; j++){
+      if(j%2==0){
+        stdout.write("1 ");
+      }
+      else{
+        stdout.write("0 ");
+      }
+    }
+    print("\n");
+  }
+
+  for(var i = 1; i <= 5; i++){
+
+    for(var x = 4; x >= i; x--){
+      stdout.write("");
+    }
 
 
+    for(var j = 1; j <= i; j++){
+      stdout.write("@ ");
+    }
 
-  List<dynamic> lst = List.filled(5, 0);
+    print("\n");
+  }
 
-  lst.add("Maulik");
-  print(lst);
+
 
 }
