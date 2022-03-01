@@ -6,7 +6,7 @@ void main(List<String> arguments) {
 //   var myAddress = "Amd";
 //   String name = "Maulik ";
 //   int number = 123;
-//   double float = 12.12;
+//   double float = 12.12;  
 //   print(a);
 //   print(f_name);
 //   print(myAddress);
@@ -136,16 +136,18 @@ void main(List<String> arguments) {
 
   // To convert the dataType or make typeCaste, use .to... method
 
-  String name = "Maulik";
-  String age = "26";
+  // String name = "Maulik";
+  // String age = "26";
 
-  print("Hello, $name");
-  print("Hello, ${name + ' ' + age}");
+  // print("Hello, $name");
+  // print("Hello, ${name + ' ' + age}");
 
-  print(name.toUpperCase());
-  print(name.toLowerCase());
+  // print(name.toUpperCase());
+  // print(name.toLowerCase());
   
-  String? name1 = stdin.readLineSync();
-  print("Hello, $name1");
-  print("is this you $name?");
+  // String? name1 = stdin.readLineSync();
+  // print("Hello, $name1");
+  // print("is this you $name?");
+
+  
 }
