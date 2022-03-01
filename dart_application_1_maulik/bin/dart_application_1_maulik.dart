@@ -161,7 +161,17 @@ void main(List<String> arguments) {
   // print(s);
 
   //// String Properties and methods
-  var name = "Maulik";
-  print(name.length);
-  print(name.isEmpty); print(name.startsWith("M"));
+  // var name = "Maulik";
+  // print(name.length);
+  // print(name.isEmpty); print(name.startsWith("M"));
+  // print(name.toLowerCase());
+  // print(name.toUpperCase());
+  // print(name);
+  // print(name.contains("M"));
+  // print(name.padRight(20));
+  // print(name.padLeft(20));
+
+  var str1 = "    Hello     ";
+  print(str1);
+  print(str1.trim());
 }
