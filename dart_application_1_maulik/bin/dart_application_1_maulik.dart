@@ -267,6 +267,23 @@ void main(List<String> arguments) {
     print("\n");
   }
 
-  
+  for(var i = 1; i <= 5; i++){
+    for(var j = 4; j >= i; j--){
+      stdout.write(" ");
+    }
+    for(var j = 1; j<=i; j++){
+      stdout.write("@ ");
+    }
+    print("\n");
+  }
+  for(var i = 1; i <= 5; i++){
+    for(var j = 1; j <= i; j++){
+      stdout.write(" ");
+    }
+    for(var j = 4; j>=i; j--){
+      stdout.write("@ ");
+    }
+    print("\n");
+  }
 
 }
