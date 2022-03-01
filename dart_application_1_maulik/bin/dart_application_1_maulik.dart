@@ -156,5 +156,12 @@ void main(List<String> arguments) {
   // var s2 = "Maulik";
 
   // print(s1 + " " + s2);
+  //// Raw String
+  // var s = r"in raw string \n or \\ or any back slash is not considered";
+  // print(s);
 
+  //// String Properties and methods
+  var name = "Maulik";
+  print(name.length);
+  print(name.isEmpty); print(name.startsWith("M"));
 }
