@@ -6,6 +6,7 @@ import 'simple_interest.dart';
 import 'temprature.dart';
 import 'q8.dart';
 import 'num_swap.dart';
+import 'q10.dart';
 
 void main(List<String> args) {
   // q_1();
@@ -16,7 +17,8 @@ void main(List<String> args) {
   // q_6();
   // q_7();
   // q_8();
-  q_9();
+  // q_9();
+  q_10();
 }
 
 void q_1() {
@@ -64,4 +66,8 @@ void q_8(){
 
 void q_9(){
  swap();
+}
+
+void q_10(){
+  checkPositive();
 }
