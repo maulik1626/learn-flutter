@@ -25,7 +25,7 @@ void q_2() {
 }
 
 void q_3() {
-  var lst = sqr_cube_maker();
+  var lst = sqrCubeMaker();
 
   print("The square is : ${lst[0]}");
   print("The cube is ${lst[1]}");
@@ -43,7 +43,7 @@ void q_5() {
 }
 
 void q_6(){
-  var s_int = simple_interest();
+  var sInt = simpleInterest();
 
-  print("Simple interest is $s_int");
+  print("Simple interest is $sInt");
 }

@@ -1,6 +1,6 @@
 import 'dart:io';
 
-double simple_interest() {
+double simpleInterest() {
   stdout.write("Please enter the principal amount : ");
   var principal = double.parse(stdin.readLineSync() ?? "0");
 

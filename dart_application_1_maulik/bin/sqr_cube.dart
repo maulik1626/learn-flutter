@@ -1,7 +1,7 @@
 import 'dart:io';
 
 
-List<dynamic> sqr_cube_maker(){
+List<dynamic> sqrCubeMaker(){
   
 
   stdout.write("Please enter a number :\t");
