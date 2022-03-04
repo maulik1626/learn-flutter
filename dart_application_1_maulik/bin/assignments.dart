@@ -11,7 +11,8 @@ void main(List<String> args) {
   // q_3();
   // q_4();
   // q_5();
-  q_6();
+  // q_6();
+  q_7();
 }
 
 void q_1() {
@@ -51,6 +52,4 @@ void q_6(){
 
 void q_7(){
   var temp = temperature();
-
-  
 }

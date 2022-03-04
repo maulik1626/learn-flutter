@@ -7,7 +7,7 @@ double temperature(){
   print("Press 1 to convert from C˚ to F˚");
   print("Press 2 to convert from F˚ to C˚");
 
-  stdout.write("Enter 1 or 2");
+  stdout.write("Enter 1 or 2 : ");
   var choice = int.parse(stdin.readLineSync() ?? "0");
 
 
@@ -17,14 +17,14 @@ double temperature(){
     
     ans = (cel * (9/5)) + 32;
 
-    print("The temprature is $ans˚C");
+    print("The temprature is $ans˚F");
   }
   else if(choice == 2){
     stdout.write("Please enter F˚");
     var fer = double.parse(stdin.readLineSync() ?? "0");
 
     ans = (fer - 32) * (5/9);
-    print("The temprature is $ans˚F");
+    print("The temprature is $ans˚C");
 
   }
   else {
