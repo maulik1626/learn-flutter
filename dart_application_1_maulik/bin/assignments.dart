@@ -2,13 +2,15 @@ import 'calculator.dart';
 import 'sqr_cube.dart';
 import 'circle_area.dart';
 import 'triangle_area.dart';
+import 'simple_interest.dart';
 
 void main(List<String> args) {
   // q_1();
   // q_2();
   // q_3();
   // q_4();
-  q_5();
+  // q_5();
+  q_6();
 }
 
 void q_1() {
@@ -38,4 +40,10 @@ void q_5() {
   var area = triangle();
 
   print("The area of the triangle is $area");
+}
+
+void q_6(){
+  var s_int = simple_interest();
+
+  print("Simple interest is $s_int");
 }
