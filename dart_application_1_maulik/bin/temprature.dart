@@ -16,12 +16,16 @@ double temperature(){
     var cel = double.parse(stdin.readLineSync() ?? "0");
     
     ans = (cel * (9/5)) + 32;
+
+    print("The temprature is $ans˚C");
   }
   else if(choice == 2){
     stdout.write("Please enter F˚");
     var fer = double.parse(stdin.readLineSync() ?? "0");
 
     ans = (fer - 32) * (5/9);
+    print("The temprature is $ans˚F");
+
   }
   else {
     print("invalid input");

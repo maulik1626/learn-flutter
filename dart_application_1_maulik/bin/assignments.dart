@@ -3,6 +3,7 @@ import 'sqr_cube.dart';
 import 'circle_area.dart';
 import 'triangle_area.dart';
 import 'simple_interest.dart';
+import 'temprature.dart';
 
 void main(List<String> args) {
   // q_1();
@@ -46,4 +47,10 @@ void q_6(){
   var sInt = simpleInterest();
 
   print("Simple interest is $sInt");
+}
+
+void q_7(){
+  var temp = temperature();
+
+  
 }
