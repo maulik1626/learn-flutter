@@ -4,6 +4,7 @@ import 'circle_area.dart';
 import 'triangle_area.dart';
 import 'simple_interest.dart';
 import 'temprature.dart';
+import 'q8.dart';
 
 void main(List<String> args) {
   // q_1();
@@ -12,7 +13,8 @@ void main(List<String> args) {
   // q_4();
   // q_5();
   // q_6();
-  q_7();
+  // q_7();
+  q_8();
 }
 
 void q_1() {
@@ -48,8 +50,12 @@ void q_6(){
   var sInt = simpleInterest();
 
   print("Simple interest is $sInt");
-}
 
+}
 void q_7(){
   var temp = temperature();
+}
+
+void q_8(){
+  q8();
 }
