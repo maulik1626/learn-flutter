@@ -5,6 +5,7 @@ import 'triangle_area.dart';
 import 'simple_interest.dart';
 import 'temprature.dart';
 import 'q8.dart';
+import 'num_swap.dart';
 
 void main(List<String> args) {
   // q_1();
@@ -62,5 +63,5 @@ void q_8(){
 }
 
 void q_9(){
-  
+ swap();
 }
